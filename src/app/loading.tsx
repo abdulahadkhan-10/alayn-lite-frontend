@@ -35,7 +35,7 @@ export default function Loading() {
       <div className="flex flex-col items-center justify-center animate-pulse">
         <div className="flex h-20 w-20 items-center justify-center rounded-3xl bg-white shadow-md shadow-slate-200/70 border border-slate-100 p-3">
           <Image
-            src="/justlogo.png"
+            src="/alayn-brand-logo.png"
             alt="Alayn Emblem"
             width={72}
             height={72}

@@ -879,7 +879,7 @@ export default function TableManagementComponent() {
             <div className="p-6 space-y-4">
               <div id="table-print-single-card-modal" className="border-2 border-dashed border-[#1B2A4A]/20 p-6 rounded-2xl bg-slate-50 space-y-3">
                 <div className="flex justify-center mb-1">
-                  <img src="/logowithouttagline.png" alt="Alayn Logo" className="h-12 object-contain mix-blend-multiply" />
+                  <img src="/alayn-brand-logo.png" alt="Alayn Logo" className="h-12 object-contain" />
                 </div>
                 <h2 className="text-xl font-extrabold text-[#1B2A4A]">Table #{printTable.tableNumber}</h2>
                 <div className="py-3 flex justify-center">
@@ -933,7 +933,7 @@ export default function TableManagementComponent() {
               {tables.map((t) => (
                 <div key={t.id} className="border-2 border-dashed border-[#1B2A4A]/20 p-5 rounded-2xl bg-slate-50 text-center space-y-3">
                   <div className="flex justify-center mb-1">
-                    <img src="/logowithouttagline.png" alt="Alayn Logo" className="h-8 object-contain mix-blend-multiply" />
+                    <img src="/alayn-brand-logo.png" alt="Alayn Logo" className="h-8 object-contain" />
                   </div>
                   <h4 className="text-lg font-extrabold text-[#1B2A4A]">Table #{t.tableNumber}</h4>
                   <div className="flex justify-center py-2">
@@ -975,7 +975,7 @@ export default function TableManagementComponent() {
         {printTable && (
           <div id="table-print-single-card">
             <div className="flex justify-center mb-2">
-              <img src="/logowithouttagline.png" alt="Alayn Logo" className="h-14 object-contain mix-blend-multiply" />
+              <img src="/alayn-brand-logo.png" alt="Alayn Logo" className="h-14 object-contain" />
             </div>
             <h2 className="text-2xl font-extrabold text-[#1B2A4A] mb-2">Table #{printTable.tableNumber}</h2>
             <div className="py-4 flex justify-center">
@@ -995,7 +995,7 @@ export default function TableManagementComponent() {
             {tables.map((t) => (
               <div key={t.id} className="print-card-bulk">
                 <div className="flex justify-center mb-1">
-                  <img src="/logowithouttagline.png" alt="Alayn Logo" className="h-8 object-contain mix-blend-multiply" />
+                  <img src="/alayn-brand-logo.png" alt="Alayn Logo" className="h-8 object-contain" />
                 </div>
                 <h4 className="text-lg font-extrabold text-[#1B2A4A]">Table #{t.tableNumber}</h4>
                 <div className="flex justify-center py-2">

@@ -231,10 +231,10 @@ export default function SignupComponent() {
                     <div className="flex justify-center mb-6 pt-2">
                         <Link href="/">
                             <Image
-                                src="/gptlogo.png"
-                                alt="Alayn — AI Operating System for Hospitality"
-                                width={1280}
-                                height={297}
+                                 src="/gptlogo-lite.png"
+                                 alt="Alayn Lite"
+                                 width={1280}
+                                 height={297}
                                 style={{ 
                                   height: "46px", 
                                   width: "auto",

@@ -74,8 +74,8 @@ export default function LoginComponent() {
           <div className="flex justify-center mb-6 pt-2">
             <Link href="/">
               <Image
-                src="/gptlogo.png"
-                alt="Alayn — AI Operating System for Hospitality"
+                src="/gptlogo-lite.png"
+                alt="Alayn Lite"
                 width={1280}
                 height={297}
                 style={{ 

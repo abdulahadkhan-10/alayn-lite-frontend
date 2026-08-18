@@ -240,24 +240,24 @@ function SidebarComponent({ isCollapsed = false, onToggleCollapse }: SidebarProp
           <div className="relative flex items-center h-full min-w-0 overflow-hidden">
             <div
               className={cn(
-                "transition-all duration-200 ease-out flex items-center",
+                "transition-all duration-200 ease-out flex items-center cursor-pointer",
                 isCollapsed
                   ? "opacity-0 scale-90 pointer-events-none w-0 overflow-hidden"
-                  : "opacity-100 scale-100 w-[130px]"
+                  : "opacity-100 scale-100 w-[150px]"
               )}
+              onClick={() => {
+                if (role === "SUPPLIER") router.push("/supplier");
+                else if (role === "STAFF") router.push("/pos");
+                else if (role === "KITCHEN") router.push("/kitchen");
+                else router.push("/dashboard");
+              }}
             >
               <Image
-                src="/whitelogo.png"
-                alt="Alayn AI"
+                src="/gptlogo-lite-white.png"
+                alt="Alayn Lite"
                 width={150}
                 height={40}
-                onClick={() => {
-                  if (role === "SUPPLIER") router.push("/supplier");
-                  else if (role === "STAFF") router.push("/pos");
-                  else if (role === "KITCHEN") router.push("/kitchen");
-                  else router.push("/dashboard");
-                }}
-                className="w-[130px] h-auto object-contain cursor-pointer"
+                className="w-[140px] h-auto object-contain"
                 priority
               />
             </div>

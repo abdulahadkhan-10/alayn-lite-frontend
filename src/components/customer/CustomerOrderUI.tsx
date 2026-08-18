@@ -208,7 +208,7 @@ export default function CustomerOrderUI({ token }: { token: string }) {
         <header className="bg-white/70 backdrop-blur-xl border-b border-zinc-200/50 px-4 py-3">
           <div className="flex items-center justify-between max-w-4xl mx-auto w-full">
             <div className="flex items-center gap-2.5">
-              <img src="/justlogo.png" alt="Alayn Logo" className="h-7 w-7 object-contain drop-shadow-sm" />
+              <img src="/alayn-brand-logo.png" alt="Alayn Logo" className="h-7 w-auto object-contain drop-shadow-sm" />
               <div>
                 <h1 className="text-lg font-bold text-zinc-900 leading-none tracking-tight">
                   {businessName} <span className="font-medium text-zinc-500">Dining</span>

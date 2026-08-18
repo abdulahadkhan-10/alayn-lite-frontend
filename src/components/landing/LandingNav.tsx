@@ -80,7 +80,7 @@ export default function LandingNav() {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          padding: "4px 16px",
+          padding: "20px 24px",
           maxWidth: "1400px",
           margin: "0 auto",
         }}
@@ -88,13 +88,13 @@ export default function LandingNav() {
         {/* Brand logo */}
         <Link href="/" className="nav-brand flex items-center overflow-visible shrink-0">
           <Image
-            src="/gptlogo.png"
-            alt="Alayn — AI Operating System for Hospitality"
+            src="/landing-logo-v2.png"
+            alt="Alayn Lite"
             width={480}
             height={111}
             sizes="(max-width: 640px) 160px, 360px"
             style={{ transformOrigin: "left center" }}
-            className="w-[90px] sm:w-[115px] h-auto transform-gpu object-contain"
+            className="w-[95px] sm:w-[120px] h-auto transform-gpu object-contain"
             priority
           />
         </Link>
@@ -108,9 +108,9 @@ export default function LandingNav() {
               <button
                 type="button"
                 onClick={() => setDropdownOpen((prev) => !prev)}
-                className="flex items-center gap-2.5 rounded-full bg-white/90 border border-zinc-200/80 px-3 py-1.5 shadow-sm hover:bg-zinc-50 transition-all duration-200 min-h-[44px]"
+                className="flex items-center gap-2.5 rounded-full bg-white/90 border border-zinc-200/80 px-3 py-1.5 shadow-sm hover:bg-zinc-50 transition-all duration-200 min-h-[38px]"
               >
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#D3232A] text-xs font-bold text-white shadow-sm" suppressHydrationWarning>
+                <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#D3232A] text-xs font-bold text-white shadow-sm" suppressHydrationWarning>
                   {initial}
                 </div>
                 <span className="text-xs font-semibold text-zinc-800" suppressHydrationWarning>

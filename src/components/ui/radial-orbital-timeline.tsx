@@ -209,7 +209,7 @@ export default function RadialOrbitalTimeline({
         <div className="flex items-center justify-center gap-2.5 mb-4 py-2.5 px-4 bg-white/80 backdrop-blur-sm rounded-xl border border-slate-200/80 shadow-xs">
           <div className="w-7 h-7 rounded-full bg-gradient-to-br from-white to-slate-100 border border-slate-300 flex items-center justify-center p-1 shadow-xs shrink-0">
             <Image
-              src="/justlogo.png"
+              src="/alayn-brand-logo.png"
               alt="Alayn Logo"
               width={20}
               height={20}
@@ -372,7 +372,7 @@ export default function RadialOrbitalTimeline({
                 style={{ width: `${hubDiameter + 16}px`, height: `${hubDiameter + 16}px` }}
               />
               <Image
-                src="/justlogo.png"
+                src="/alayn-brand-logo.png"
                 alt="Alayn Logo"
                 width={80}
                 height={80}

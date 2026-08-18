@@ -24,7 +24,7 @@ export default function LandingFooter() {
             >
               <div className="relative overflow-hidden flex items-center">
                 <Image
-                  src="/whitelogo.png"
+                  src="/alayn-brand-white-logo.png"
                   alt="Alayn"
                   width={800}
                   height={186}
